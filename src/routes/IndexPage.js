@@ -58,7 +58,7 @@ class IndexPage extends Component {
                 <Calendar bp={this.state.bp} />
               </section>
             </Row>
-            <Row style={{ display: this.state.bp === 'mobile' ? 'block' : 'none' }}>
+            <Row className="timeline-wrapper" style={{ display: this.state.bp === 'mobile' ? 'block' : 'none' }}>
               <Col md={6}>
                 <Timeline />
               </Col>
